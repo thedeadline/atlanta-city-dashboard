@@ -1,0 +1,41 @@
+#menuTitle {
+	background-color: black;
+	text-transform: uppercase;
+	font-size: 1em;
+	color: white;
+	}
+ul { 
+	margin: 0;
+	padding-left: 0px;
+	padding-top: 2px;
+	}
+li {
+	display: inline;
+}
+a{  
+	padding: 1.65em .5em 0em .5em;
+}
+a:hover {
+		background-color: gray;
+		border-left: solid;
+		border-right: solid;
+		border-width: thin;
+		border-color: black;\
+	}
+
+.icon { 
+ 	width: 3em;
+ 	height: 2.5em;
+ }
+ #menu {
+ 	background-color: lightgray;
+	margin: 0px 20px 0px 20px;
+	max-width: 35em;
+
+}
+body{
+	text-align: center;
+	font-family: Arial, Verdana, sans-serif;
+	color: #665544;\
+	letter-spacing: 0.15em;
+	}
