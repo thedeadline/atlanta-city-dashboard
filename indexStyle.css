@@ -18,6 +18,17 @@
 #trending{
 	padding-bottom: 150px;
 }
+#legend{
+	padding-bottom: 10px;
+}
+
+#trending, #pollen, #traffic, #legend{
+	background-color: white;
+	margin-bottom: 15px;
+	padding-top: 0;
+	padding-right:1em;
+	padding-left: 1em;
+}
 
 #fire{
 	float: left;
@@ -43,13 +54,6 @@
 	background-color: white;
 }
 
-#trending, #pollen, #traffic {
-	background-color: white;
-	margin-bottom: 15px;
-	padding-top: 0;
-	padding-right:1em;
-	padding-left: 1em;
-}
 body{
 
 	font-family: Arial, Verdana, sans-serif;
@@ -68,7 +72,7 @@ body{
 	text-transform: uppercase;
 	font-size: 1em;
 	color: white;
-	padding: 1em 7em 23px 7em;
+	padding: 1em 6em 23px 6em;
 	text-align: center;
 	font-size: 1.7em;
 	margin: 5px 1em 0px 1em;
@@ -103,6 +107,7 @@ p { line-height: 1.4em;
 	margin: 5px;
 	padding: 5px;
 	clear: both;
+	font-size: 9pt;
 }
 .icon { 
  	width: auto;
