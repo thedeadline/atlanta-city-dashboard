@@ -33,9 +33,36 @@ a:hover {
 	max-width: 40em;
 
 }
+
+#legend{
+	background-color: white;
+	background-color: white;
+	margin-bottom: 15px;
+	padding-top: 0;
+	padding-right:1em;
+	padding-left: 1em;
+}
+
 body{
 	text-align: center;
 	font-family: Arial, Verdana, sans-serif;
 	color: #665544;\
 	letter-spacing: 0.15em;
 	}
+
+html, body {
+height: 90%;
+}
+
+.wrapper{
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -4em;
+}
+ .footer, .push{
+ 	height: 4em;
+ }
+ .push{
+ 	margin-bottom: 100px;
+ }
