@@ -24,8 +24,8 @@ a:hover {
 	}
 
 .icon { 
- 	width: 3em;
- 	height: 2.5em;
+ 	/* /* width: 3em; */ */
+ 	/* height: 2.5em; */
  }
  #menu {
  	background-color: lightgray;

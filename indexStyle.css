@@ -43,14 +43,14 @@ body, html{
 
 	}
 .wrapper{
-	position: fixed;
-  	left: 50%;
-  	width: 70em;
-	margin: 3em -35em;
+/* 	position: fixed;
+  	left: 50%; */
+	margin: 3em auto;
+	  	width: 70em;
 }
 .rightColumn{
 	/*margin-left: 1em;*/
-	float: right;
+	float:left;
 	width: 53em;
 	
 }
@@ -103,6 +103,6 @@ p { line-height: 1.4em;
 	font-size: 9pt;
 }
 .icon { 
- 	width: auto;
- 	height: 3.5em;
+	width: auto;
+ 	height: 3.5em; 
  }
