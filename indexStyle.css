@@ -49,7 +49,7 @@ body, html{
 	  	width: 70em;
 }
 .rightColumn{
-	/*margin-left: 1em;*/
+	margin-left: 1em;
 	float:left;
 	width: 53em;
 	
@@ -62,20 +62,22 @@ body, html{
 	padding: 1em 6em 23px 6em;
 	text-align: center;
 	font-size: 1.7em;
+	margin-bottom: 1em;
 	}
 #police{
-	margin-top: 15px;
+/* 	margin-top: 15px;
 	margin-right: 15px;
 	margin-bottom: 0px;
 	padding-top: 1.35em;
 	padding-right: 170px;
 	padding-bottom: 21px; 
-	padding-left: 16px;
-	background-color: white;
+	padding-left: 16px; */
+	max-width: 150px;
+	/* background-color: white; */
 }
 #fire{
 	float: left;
-	margin-top: 15px;
+/* 	margin-top: 15px;
 	margin-left: 30px;
 	margin-right: 15px;
 	margin-bottom: 15px;
@@ -83,13 +85,13 @@ body, html{
 	padding-left: 1em;
 	padding-right: 250px;
 	padding-bottom: 21px;
-	background-color: white;
+	background-color: white; */
 }
 
 a{ 
-	background-color: white;
+	/* background-color: white; */
 	text-decoration: none;
-	padding: 1.65em .5em 0em .5em;
+/* 	padding: 1.65em .5em 0em .5em; */
 	clear: both;
 }
 a:hover {
@@ -104,5 +106,5 @@ p { line-height: 1.4em;
 }
 .icon { 
 	width: auto;
- 	height: 3.5em; 
+ 	height: auto; 
  }
