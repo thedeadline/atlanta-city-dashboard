@@ -1,9 +1,23 @@
 #menuTitle {
 	background-color: black;
 	text-transform: uppercase;
-	font-size: 1em;
+	font-size: 27px;
 	color: white;
 	}
+#header{
+	font-size: 5em;
+	text-align: center;
+	color: white;
+}
+p{
+	font-size: 10px;
+}
+h1{
+	font-size: 14px;
+}
+h2{
+	font-size: 12px;
+}
 ul { 
 	margin: 0;
 	padding-left: 0px;
@@ -24,16 +38,38 @@ a:hover {
 	}
 
 .icon { 
- 	/* /* width: 3em; */ */
- 	/* height: 2.5em; */
+ 	width: 4.5em;
+ 	height: 3em;
  }
  #menu {
  	background-color: lightgray;
-	margin: 0px 20px 0px 20px;
-	max-width: 40em;
-
+	margin: 0px auto 0px auto;
+	max-width: 60em;
 }
-
+#leftsideinfo {
+	float: left;
+	height: 120 px;
+	width: 475 px;
+	background-color: white;
+	padding-top: 2px;
+}
+#rightsideinfo {
+	width: 475 px;
+	float: left;
+}
+body{
+	text-align: center;
+	font-family: Arial, Verdana, sans-serif;
+	color: #665544;
+	letter-spacing: 0.15em;
+	}
+table{
+	text-align: center;
+	margin: 0px auto 0px auto;
+}
+td{
+	padding: 0px;
+}
 #legend{
 	background-color: white;
 	background-color: white;
@@ -42,27 +78,3 @@ a:hover {
 	padding-right:1em;
 	padding-left: 1em;
 }
-
-body{
-	text-align: center;
-	font-family: Arial, Verdana, sans-serif;
-	color: #665544;\
-	letter-spacing: 0.15em;
-	}
-
-html, body {
-height: 90%;
-}
-
-.wrapper{
-	min-height: 100%;
-	height: auto !important;
-	height: 100%;
-	margin: 0 auto;
-}
- .footer, .push{
- 	height: 4em;
- }
- .push{
- 	margin-bottom: 100px;
- }
