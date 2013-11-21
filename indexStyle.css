@@ -57,7 +57,7 @@ body, html{
 	/* margin-bottom:.5em; */
 	float:left;
 	max-width: 53em;
-	min-width:20em;
+	min-width:50em;
 }
 #title {
 	background-color: black;
