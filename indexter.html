@@ -2,7 +2,7 @@
 <html>
 <title>Atlanta Dashboard</title>
 <head>
-	<link href="indexStyle.css" rel = "stylesheet" type = "text/css" media = "screen">
+	<link href="indexter.css" rel = "stylesheet" type = "text/css" media = "screen">
 	<meta author = "Isabelle Giuong">
 	<meta name="description" content="Atlanta Dashboard by Team A Squared">
 </head>
@@ -10,10 +10,9 @@
 <body background>
 
 <div class = "wrapper">
-<table>
- <tr>
- 	<th colspan = "8">
-	<div class = "header">
+<table border = "0">
+ <tr> <!-- row 0 -->
+ 	<th colspan = "8" class = "header">
 		ATLANTA, GA
 		<!-- Clock Part 1 - Put Anywhere Before Part 2 -->
 
@@ -106,51 +105,87 @@
 		<span><img src="http://weathersticker.wunderground.com/weathersticker/cgi-bin/banner/ban/wxBanner?bannertype=wu_clean2day_cond&airportcode=KPDK&ForcedCity=Atlanta&ForcedState=GA&zip=30332&language=EN" alt="Find more about Weather in Atlanta, GA" width="180" /></a></span>
 
 		<!-- Weather widget end -->
-	</div>
+	<!-- </div> -->
+	</th>
+	</tr>
 
-</th>
-</tr>
-<tr>
-	<div class = "leftColumn">
-		<div id = "pollen"><h4>Pollen Count</h4>
-		</div>
-		<div id= "traffic">
-			<h4>Traffic Alert</h4>
-		</div>
-		<div id= "trending">
-			<h4>Trending Now</h4>
-		</div>
-				<div class = "footer" id= "legend">
-			<h4>Legend</h4>
+	<tr> <!-- row 1  -->
+		<td colspan="2">
+			Pollen Count
+		</td>
+		<td colspan = "5" id = "title">
+			City performance Overview
+		</td>
+				<td>LEGEND
 			<p>
 				<img class ="legendColor" src="images/legend/green.svg" alt="Green square image" title="Green Square"/> At or above target</p>
 				<p><img class ="legendColor" src="images/legend/yellow.svg" alt="Yellow square image" title="Yellow Square"/> 1%-10% Below target</p>
-				<p><img class ="legendColor" src="images/legend/red.svg" alt="red square image" title="red Square"/> >20% Below target</p>
-			</div>
-	</div>
-	<div class = "rightColumn">
-		<div id = "title" class = "columnA">City performance summary</div>
+				<p><img class ="legendColor" src="images/legend/red.svg" alt="red square image" title="red Square"/> >20% Below target
+			</p>
+		</td>
+	</tr> <!-- row 1  -->
 
-		<div id = "fire">
+	<tr> <!-- row 2  -->
+		<td colspan = "2">
+		<!-- <div id= "traffic">
+			<h4> -->
+				Traffic Alerts
+			<!-- </h4>
+		</div> -->
+		</td>
+		<td colspan = "3">
+			<!-- <div id = "fire"> -->
 			<a href="fire.html"><!-- comment --><img class="icon" src="images/landing page data/fire.svg" alt="Atlanta Fire Rescue Image Link" title="Atlanta Fire Rescue"/></a>
-		</div>
-		<a href="waste.html"><!-- comment --><img class="icon" src="images/icons/waste.svg" alt="Solid Waste Service Image Link" title="Solid Waste Service"/></a>
-		<a href="parksandrec.html"><!-- comment --><img class="icon" src="images/icons/parks and rec.svg" alt="Parks and Recreation Image Link" title="Parks and Recreation"/></a>
-		<a href="public works.html"><!-- comment --><img class="icon" src="images/landing page data/public works.svg" alt="Department of Public Works Image Link" title="Department of Public Works"/></a>
-		<a href="watershed.html"><!-- comment --><img class="icon" src="images/icons/watershed.svg" alt="Department of Watershed Management Image Link" title="Department of Watershed Management"/></a>
+		</td>
+		<td colspan = "2">
+			<div id = "police"><a href="police.html"><!-- comment --><img class ="icon" src="images/landing page data/police.svg" alt="Atlanta Police Department Image Link" title="Atlanta Police Department"/></a></div>
+		</td>
+		<td colspan = "1">
+			<a href="sustainability.html"><!-- comment --><img class="icon" src="images/landing page data/sustainability.svg" alt="Office of Sustainability Image Link" title="Office of Sustainability"/></a>
+		</td>
+	</tr> <!-- row 2  -->
 
-		<div id = "police"><a href="police.html"><!-- comment --><img class ="icon" src="images/landing page data/police.svg" alt="Atlanta Police Department Image Link" title="Atlanta Police Department"/></a></div>
+	<tr> <!-- row 3  -->
+		<td colspan = "2" rowspan = "2">
+			Trending Now
+		</td>
 
-		<div id = "aviation"><a href="aviation.html"><!-- comment --><img class="icon" src="images/icons/aviation.svg" alt="Department of Aviation Image Link" title="Department of Aviation"/></a></div>
+		<td colspan = "4">
+			<a href="public works.html"><!-- comment --><img class="icon" src="images/landing page data/public works.svg" alt="Department of Public Works Image Link" title="Department of Public Works"/></a>
+		</td>
+		<td colspan = "2">
+			<a href="corrections.html"><!-- comment --><img class="icon" src="images/icons/corrections.svg" alt="Department of Corrections Image Link" title="Department of Corrections"/></a>
+		</td>
+	</tr> <!-- row 3  -->
 
-		<a href="corrections.html"><!-- comment --><img class="icon" src="images/icons/corrections.svg" alt="Department of Corrections Image Link" title="Department of Corrections"/></a>
+	<tr> <!-- row 4  -->
+		<td colspan = "2">
+			<a href="parksandrec.html"><!-- comment --><img class="icon" src="images/icons/parks and rec.svg" alt="Parks and Recreation Image Link" title="Parks and Recreation"/></a>
+		</td>
+		<td >
+			<a href="watershed.html"><!-- comment --><img class="icon" src="images/icons/watershed.svg" alt="Department of Watershed Management Image Link" title="Department of Watershed Management"/></a>
+		</td>
+		<td colspan = "2">
+			<a href="aviation.html"><!-- comment --><img class="icon" src="images/icons/aviation.svg" alt="Department of Aviation Image Link" title="Department of Aviation"/></a>
+		</td>
+		<td>
+			Submit Request
+		</td>
+	</tr> <!-- row 4  -->
+<!-- 	<tr>
+		<td>
+			Legend
+			<p>
+				<img class ="legendColor" src="images/legend/green.svg" alt="Green square image" title="Green Square"/> At or above target
+				
+				<img class ="legendColor" src="images/legend/yellow.svg" alt="Yellow square image" title="Yellow Square"/> 1%-10% Below target
+				
+				<img class ="legendColor" src="images/legend/red.svg" alt="red square image" title="red Square"/> >20% Below target
+			</p>
+		</td>
+	</tr> -->
 
-		<a href="sustainability.html"><!-- comment --><img class="icon" src="images/landing page data/sustainability.svg" alt="Office of Sustainability Image Link" title="Office of Sustainability"/></a>
-
-	</div>
 </table>
-</div>
-		</body>
-
-
-		</html>
+</div><!--  close wrapper -->
+</body>
+</html>

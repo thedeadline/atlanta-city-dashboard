@@ -1,0 +1,64 @@
+.header{
+	font-size: 4em;
+	text-align: center;
+	color: white;
+}
+
+h4{
+	margin-bottom: 0px; 
+	margin-top: 0px;
+	text-align: center;
+}
+
+td{
+	background-color: white;
+}
+body, html{
+	margin:0;
+	padding:0;
+	font-family: Arial, Verdana, sans-serif;
+	background-color: LightSkyBlue;
+	letter-spacing: 0.05em;
+	/*width: 70em;*/
+	/*background-size: cover;
+    background-repeat: no-repeat;*/
+/*    margin: 3em 7em 3em 7em;*/
+
+	}
+.wrapper{
+/* 	position: fixed;
+  	left: 50%; */
+	margin: 10px auto;
+	width: 1000px;
+}
+
+#title {
+	background-color: black;
+	text-transform: uppercase;
+	font-size: 1.5em;
+	color: white;
+	text-align: center;
+	}
+
+
+a{ 
+	/* background-color: white; */
+/* 	text-decoration: none;
+/* 	padding: 1.65em .5em 0em .5em; */
+	/* clear: both; */
+}
+a:hover {
+		
+	}
+
+p { 
+/* line-height: 1.4em;
+	margin: 5px;
+	padding: 5px;
+	clear: both; */
+	/*font-size: 12pt;*/
+}
+
+ .legendColor{
+	width:15px;
+	}
