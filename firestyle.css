@@ -10,13 +10,22 @@
 	color: white;
 }
 p{
-	font-size: 10px;
+	font-size: 13px;
+	text-align: left;
+	font-family: avant garde;
+	padding-left: 1em;
+	padding-right: 1em;
+	letter-spacing: 0.5px;
 }
 h1{
-	font-size: 14px;
+	font-size: 18px;
+	font-family: avant garde;
+	letter-spacing: 0.5px;
 }
 h2{
-	font-size: 12px;
+	font-size: 15px;
+	font-family: avant garde;
+	letter-spacing: 0.5px;
 }
 ul { 
 	margin: 0;
