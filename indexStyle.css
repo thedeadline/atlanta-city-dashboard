@@ -21,6 +21,11 @@ td{
 #footer{
 	text-align: center;
 }
+#righty{
+	float: right;
+	margin-right: 220px;
+}
+
 body, html{
 	/*margin:0;*/
 	padding:0;
@@ -36,6 +41,8 @@ body, html{
 }
 .logo{
 	height: 3em;
+	margin-right: 10px;
+	float: left;
 }
 a:link{
 
