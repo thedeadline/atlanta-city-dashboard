@@ -38,11 +38,15 @@ body, html{
 	margin-left: auto;
 	margin-right: auto;
 	/*width: 100px;*/
+	vertical-align: center;
 }
 .logo{
 	height: 3em;
 	margin-right: 10px;
 	float: left;
+}
+.data{
+	height: 10em;
 }
 a:link{
 
@@ -50,9 +54,9 @@ text-decoration:none;
 }
 
 .icon { 
- 	width: 5em;
- 	height: 5em;
- }
+ 	width: 10em;
+ 	height: 10em;
+ 	margin: 0 3em; }
 #title {
 	text-transform: uppercase;
 	font-size: 1.5em;
