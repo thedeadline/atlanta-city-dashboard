@@ -1,24 +1,6 @@
 <html>
 <head>
-<script language="JavaScript">
-<!--
-// Changing CSS script from http://css-tricks.com/snippets/javascript/different-stylesheet-pending-the-time-of-day/
-// with modification by Alvina Atmadja
-// for demo purposes only!
-function getStylesheet() {
-      var currentTime = new Date().getHours();
-      if (7<= currentTime&&currentTime < 17) {
-       document.write("<link href='firestyle.css' rel = 'stylesheet' type = 'text/css' media = 'screen'>");
-      }
-      if ( (17 <= currentTime&&currentTime <=24) || (0 <= currentTime&&currentTime < 7) ) {
-       document.write("<link href='firestyle2.css' rel = 'stylesheet' type = 'text/css' media = 'screen'>");
-      }
-}
-
-getStylesheet();
--->
-</script>
-<noscript> <link href="firestyle.css" rel = "stylesheet" type = "text/css" media = "screen"> </noscript>
+<link href="fireStyle.css" rel = "stylesheet" type = "text/css" media = "screen">
 <meta author = "Isabelle Giuong & Alan Zaring">
 <meta name="description" content="Atlanta Dashboard by Team A Squared">
 
@@ -107,7 +89,7 @@ getStylesheet();
     </script>
 
 </head>
-<body>
+<body background = "images/background/bg atl night.jpg">
 <div id = "header">
 		ATLANTA, GA
         <!-- Clock Part 1 - Put Anywhere Before Part 2 -->
@@ -206,7 +188,7 @@ getStylesheet();
 	</div>
 
 <div id = "menu" >
-	<div id = "menuTitle">Atlanta Fire Department</div>
+	<div id = "menuTitle">Fire Department</div>
 	<ul>
 		<li><a href="index.html"><!-- comment --><img class ="icon" src="images/icons/home.svg" alt="Home Link" title="Atlanta Dashboard Home"/></a></li>
 
@@ -227,12 +209,12 @@ getStylesheet();
 		</div>
 </div>
 	
-<div style= "width: 963px; height: 485px; overflow: scroll; overflow-x: hidden; margin: 0px auto 0px auto;">
+<div style= "width: 963px; height: 485px; margin: 0px auto 0px auto;">
 <table>
 <tr>
 <td valign="top">
-	<div id = "leftsideinfo" style = "height: 775px;">
-	<img src= "images/icons/fireDeptSymbol.jpg"> 
+	<div id = "leftsideinfo" style = "height: 858px;">
+	<img src= "images/logos/fire.jpg"> 
 	<h1>CITY OF ATLANTA FIRE RESCUE DEPARTMENT</h1> 
 <p>Fire Chief Kelvin J. Cochran</p> 
 <p>Public Safety Headquarters 226 Peachtree Street, SW</p> 
@@ -250,10 +232,11 @@ The department also provides mutual aid to neighboring cities and counties upon 
 </div>
 </td>
 <td valign="top">
-	<div id = "rightsideinfo" style= "background-color: white; height: 777px;" >
+	<div id = "rightsideinfo" style= "background-color: white; height: 860px;" >
 	<div id="chart_div1" style="width: 450px; height: 250px; padding-top: 2px;"></div>
 	<div id="chart_div2" style="width: 450px; height: 250px; padding-top: 2px;"></div>
 	<div id="chart_div3" style="width: 450px; height: 250px; padding-top: 2px;"></div>
+	<a href="downloadables/fora.xlsx"><img src= "images/logos/downloadbutton.png" style= "padding-top: 30px;"></a>
 	</div>
 </td>
 </tr>
