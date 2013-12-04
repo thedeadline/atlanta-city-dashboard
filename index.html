@@ -2,7 +2,27 @@
 <html>
 <title>Atlanta Dashboard</title>
 <head>
-	<link href="indexStyle.css" rel = "stylesheet" type = "text/css" media = "screen">
+	<script language="JavaScript">
+	<!--
+	// Changing CSS script from http://css-tricks.com/snippets/javascript/different-stylesheet-pending-the-time-of-day/
+	// with modification by Alvina Atmadja
+	// for demo purposes only!
+	function getStylesheet() {
+	      var currentTime = new Date().getHours();
+	      if (7<= currentTime&&currentTime < 17) {
+	       document.write("<link href='indexStyle.css' rel = 'stylesheet' type = 'text/css' media = 'screen'>");
+	      }
+	      if ( (17 <= currentTime&&currentTime <=24) || (0 <= currentTime&&currentTime < 7) ) {
+	       document.write("<link href='indexStyle2.css' rel = 'stylesheet' type = 'text/css' media = 'screen'>");
+	      }
+	}
+
+	getStylesheet();
+	-->
+	</script>
+
+	<noscript> <link href="indexStyle.css" rel = "stylesheet" type = "text/css" media = "screen"> </noscript>
+
 	<meta author = "Isabelle Giuong">
 	<meta name="description" content="Atlanta Dashboard by Team A Squared">
 </head>
@@ -14,7 +34,7 @@
  <tr> <!-- row 0 -->
  	<th colspan = "3" class = "header">
 		<!-- ATLANTA, GA -->
-		<a href="index.html"><img src="images/background/atlanta.png" id = "city"></a>
+		<img src="images/background/atlanta.png" id = "city">
 		<!-- Clock Part 1 - Put Anywhere Before Part 2 -->
 		<script language="JavaScript">
 		// Anytime Anywhere Web Page Clock Generator

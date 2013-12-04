@@ -1,0 +1,89 @@
+#menuTitle {
+	background-color: black;
+	text-transform: uppercase;
+	font-size: 27px;
+	color: white;
+	}
+#header{
+	font-size: 5em;
+	text-align: center;
+	color: white;
+}
+p{
+	font-size: 13px;
+	text-align: left;
+	font-family: avant garde;
+	padding-left: 1em;
+	padding-right: 1em;
+	letter-spacing: 0.5px;
+}
+h1{
+	font-size: 18px;
+	font-family: avant garde;
+	letter-spacing: 0.5px;
+}
+h2{
+	font-size: 15px;
+	font-family: avant garde;
+	letter-spacing: 0.5px;
+}
+ul { 
+	margin: 0;
+	padding-left: 0px;
+	padding-top: 2px;
+	}
+li {
+	display: inline;
+}
+a{  
+	padding: 1.65em .5em 0em .5em;
+}
+a:hover {
+		background-color: gray;
+		border-left: solid;
+		border-right: solid;
+		border-width: thin;
+		border-color: black;\
+	}
+
+.icon { 
+ 	width: 4.5em;
+ 	height: 3em;
+ }
+ #menu {
+ 	background-color: lightgray;
+	margin: 0px auto 0px auto;
+	max-width: 60em;
+}
+#leftsideinfo {
+	float: left;
+	height: 120 px;
+	width: 475 px;
+	background-color: white;
+	padding-top: 2px;
+}
+#rightsideinfo {
+	width: 475 px;
+	float: left;
+}
+body{
+	text-align: center;
+	font-family: Arial, Verdana, sans-serif;
+	color: #1F4787;
+	letter-spacing: 0.15em;
+	}
+table{
+	text-align: center;
+	margin: 0px auto 0px auto;
+}
+td{
+	padding: 0px;
+}
+#legend{
+	background-color: white;
+	background-color: white;
+	margin-bottom: 15px;
+	padding-top: 0;
+	padding-right:1em;
+	padding-left: 1em;
+}
