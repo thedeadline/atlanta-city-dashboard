@@ -66,10 +66,13 @@ a:hover {
 	width: 475 px;
 	float: left;
 }
+body, html{
+	background-color: #1F4787;
+	}
 body{
 	text-align: center;
 	font-family: Arial, Verdana, sans-serif;
-	color: #1F4787;
+	color: #020203;
 	letter-spacing: 0.15em;
 	}
 table{

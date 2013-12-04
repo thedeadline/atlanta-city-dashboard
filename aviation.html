@@ -1,6 +1,24 @@
 <html>
 <head>
-<link href="fireStyle.css" rel = "stylesheet" type = "text/css" media = "screen">
+<script language="JavaScript">
+<!--
+// Changing CSS script from http://css-tricks.com/snippets/javascript/different-stylesheet-pending-the-time-of-day/
+// with modification by Alvina Atmadja
+// for demo purposes only!
+function getStylesheet() {
+      var currentTime = new Date().getHours();
+      if (7<= currentTime&&currentTime < 17) {
+       document.write("<link href='firestyle.css' rel = 'stylesheet' type = 'text/css' media = 'screen'>");
+      }
+      if ( (17 <= currentTime&&currentTime <=24) || (0 <= currentTime&&currentTime < 7) ) {
+       document.write("<link href='firestyle2.css' rel = 'stylesheet' type = 'text/css' media = 'screen'>");
+      }
+}
+
+getStylesheet();
+-->
+</script>
+<noscript> <link href="firestyle.css" rel = "stylesheet" type = "text/css" media = "screen"> </noscript>
 <meta author = "Isabelle Giuong & Alan Zaring">
 <meta name="description" content="Atlanta Dashboard by Team A Squared">
 
@@ -60,7 +78,7 @@
 	
 
 </head>
-<body background = "images/background/bg atl night.jpg">
+<body>
 <div id = "header">
 		ATLANTA, GA
         <!-- Clock Part 1 - Put Anywhere Before Part 2 -->
