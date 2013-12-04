@@ -18,13 +18,13 @@ h4{
 
 td{
 	background-color: white;
-	padding-left: 20px;
-	padding-right: 20px;
+	padding: 10px 20px;
 }
 #footer{
 	text-align: center;
+	/*font-size: 24px;*/
 }
-#righty{
+.righty{
 	float: right;
 	margin-right: 240px;
 }
@@ -56,6 +56,8 @@ body{
 }
 .logo{
 	height: 3em;
+}
+.lefty{
 	margin-right: 20px;
 	margin-left: 5px;
 	float: left;
@@ -93,4 +95,10 @@ text-decoration:none;
 table{
 	margin-bottom: 100px;
 }
-
+.dept{
+  text-transform:capitalize;
+  font-size: 24px;
+}
+#gt{
+	width: 300px;
+}
